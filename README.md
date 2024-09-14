@@ -1,3 +1,26 @@
+## teleop_twist_joy (jazzy) - 2.6.2-1
+
+The packages in the `teleop_twist_joy` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy teleop_twist_joy --override-release-repository-push-url git@github.com:revyos-ros/teleop_twist_joy-release.git` on `Sat, 14 Sep 2024 05:32:27 -0000`
+
+The `teleop_twist_joy` package was released.
+
+Version of package(s) in repository `teleop_twist_joy`:
+
+- upstream repository: https://github.com/ros2/teleop_twist_joy.git
+- release repository: https://github.com/revyos-ros/teleop_twist_joy-release.git
+- rosdistro version: `2.6.2-1`
+- old version: `2.6.0-4`
+- new version: `2.6.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## teleop_twist_joy (jazzy) - 2.6.0-4
 
 The packages in the `teleop_twist_joy` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy teleop_twist_joy --override-release-repository-push-url git@github.com:revyos-ros/teleop_twist_joy-release.git` on `Mon, 17 Jun 2024 06:45:53 -0000`
