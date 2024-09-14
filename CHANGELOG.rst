@@ -2,6 +2,22 @@
 Changelog for package teleop_twist_joy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.6.2 (2024-09-06)
+------------------
+* Update the launch file to work with modern joy. (`#52 <https://github.com/ros2/teleop_twist_joy/issues/52>`_)
+  It should use "device_id" (not "dev") as the parameter,
+  and the parameter should be a number, not a path (this is
+  effectively the SDL device number, which is cross-platform).
+* Contributors: Chris Lalancette
+
+2.6.1 (2024-06-17)
+------------------
+* Added Github action (`#48 <https://github.com/ros2/teleop_twist_joy/issues/48>`_)
+* Add an option to publish TwistStamped (`#42 <https://github.com/ros2/teleop_twist_joy/issues/42>`_)
+* Add support for PDP joysticks (`#41 <https://github.com/ros2/teleop_twist_joy/issues/41>`_)
+  * Add support for PDP joysticks
+* Contributors: Alejandro Hernández Cordero, Bonolo Mathibela, Tamaki Nishino
+
 2.6.0 (2023-06-07)
 ------------------
 * add inverted reverse param (`#35 <https://github.com/ros2/teleop_twist_joy/issues/35>`_)
